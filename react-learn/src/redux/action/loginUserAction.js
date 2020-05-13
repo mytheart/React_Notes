@@ -10,3 +10,7 @@ export function createSetLoginUserAction(user) {
         payload: user
     }
 }
+
+export default {
+  createSetLoginUserAction,
+}

@@ -2,8 +2,8 @@ import * as usersAction from "../action/usersAction"
 import uuid from "uuid"
 
 const initialState = [
-    { id: uuid(), name: "用户1", age: 11 },
-    { id: uuid(), name: "用户2", age: 12 }
+    { id: 1, name: "用户1", age: 11 },
+    { id: 2, name: "用户2", age: 12 }
 ];
 
 export default (state = initialState, { type, payload }) => {

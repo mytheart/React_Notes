@@ -13,9 +13,15 @@ export const createDeleteUserAction = (id) => ({
 })
 
 export const createUpdateUserAction = (id, newUserData) => ({
-    type: DELETEUSER,
+    type: UPDATEUSER,
     payload: {
         ...newUserData,
         id
     }
 })
+
+export default {
+  createAddUserAction,
+  createDeleteUserAction,
+  createUpdateUserAction,
+}
